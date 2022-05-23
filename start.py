@@ -1,5 +1,5 @@
-
 print('Hello world')
 print('Hello world')
 
-print('Master 1')
+li = list('abcdefg')
+print('Master', *li, sep=' ')
